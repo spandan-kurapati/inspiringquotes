@@ -1,0 +1,38 @@
+/* MainNavigation.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5ba7dfa;
+    color: white;
+    padding: 1rem;
+  }
+  
+  
+  .logo-image {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+
+  .nav-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links ul li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links ul li a.active {
+    font-weight: bold;
+  }
+  
+  /* Add any additional navigation styles here */
+  

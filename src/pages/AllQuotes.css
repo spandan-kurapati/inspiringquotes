@@ -1,0 +1,38 @@
+.quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quote-card {
+  background-color: #f4f4f4;
+    border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px); 
+  position: relative;
+}
+
+.quote-text {
+  font-size: 18px;
+}
+
+.quote-author {
+  font-style: italic;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.details-link {
+  text-decoration: none;
+  color: #111215;
+  font-weight: bold;
+background-color: #0d0d0e;
+    color: white;
+}
+
+
+.details-link:hover {
+    background-color: #0056b3;
+  }

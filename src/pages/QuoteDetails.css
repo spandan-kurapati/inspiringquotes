@@ -1,0 +1,33 @@
+/* QuoteDetails.css */
+.quote-details {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .comments {
+    margin-top: 2rem;
+  }
+  
+  .comments h3 {
+    font-size: 1.5rem;
+  }
+  
+  .comments ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comments ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background-color: white;
+  }
+  
+  /* Add any additional styles for QuoteDetails component here */
+  

@@ -1,0 +1,53 @@
+/* NewQuote.css */
+.new-quote {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .form-control textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .form-actions {
+    margin-top: 1rem;
+  }
+  
+  .form-actions button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-actions button:hover {
+    background-color: #00b32d;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Add any additional styles for NewQuote component here */
+  
